@@ -20,10 +20,27 @@ h1 {
     color: white;
 }
 
-h2 {
+h2, h3 {
     font-size: 25px;
     font-family: Arial;
     color: #333;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 14px;
+    font-family: Arial;
+}
+
+/* Link styling */
+a {
+    font-family: Arial;
+    font-size: 16px;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
 }
 
 /* Table styling */
