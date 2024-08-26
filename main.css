@@ -1,19 +1,47 @@
+/* Header styling */
+header {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+}
 
+/* Logo styling */
+.logo {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
+/* Heading styles */
 h1 {
-  font-size: 40px;
-  font-family: Arial
+    font-size: 40px;
+    font-family: Arial;
+    color: white;
 }
-h2 {
-  font-size: 25px;
-  font-family: Arial
+
+/* Table styling */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
 }
-h3 {
-  font-family: Arial
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-family: Arial;
 }
-p {
-  font-size: 14px;
-  font-family: Arial
+
+th {
+    background-color: #f2f2f2;
+    font-size: 18px;
 }
+
+td {
+    font-size: 16px;
+}
+
 
 
